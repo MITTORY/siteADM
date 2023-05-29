@@ -1,0 +1,28 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+#card-values {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-values p {
+  margin: 5px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.modal {
+  margin: 0 auto;
+  text-align: center;
+}

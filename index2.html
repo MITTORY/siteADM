@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Planit Poker - Room</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <div class="main-content">
+      <h1 id="room-name">Room Name</h1>
+      <div id="card-selection">
+        <h2>Select Card(s):</h2>
+        <!-- Selected cards will be dynamically added here -->
+      </div>
+    </div>
+    <div class="sidebar">
+      <h2>Participants</h2>
+      <p id="participant-count">0</p>
+      <h2>Votes Cast</h2>
+      <p id="votes-cast-count">0</p>
+      <button id="result-btn" class="result-btn">Result</button>
+      <button id="reset-btn" class="result-btn">Reset</button>
+    </div>
+  </div>
+
+  <div id="result-modal" class="modal">
+    <div class="modal-content">
+      <h2>Voting Result:</h2>
+      <div id="result">
+        <!-- Voting result will be dynamically displayed here -->
+      </div>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>

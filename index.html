@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Planit Poker - Create Room</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="create-room-modal" class="modal">
+    <div class="modal-content">
+      <h2>Create a Room</h2>
+      <form id="create-room-form">
+        <label for="room-name">Room Name:</label>
+        <input type="text" id="room-name" required>
+        <label>Customize card values:</label>
+        <div id="card-values">
+          <p><input type="checkbox" value="0">0</p>
+          <p><input type="checkbox" value="0.5">1/2</p>
+          <p><input type="checkbox" value="1">1</p>
+          <p><input type="checkbox" value="2">2</p>
+          <p><input type="checkbox" value="3">3</p>
+          <p><input type="checkbox" value="5">5</p>
+          <p><input type="checkbox" value="8">8</p>
+        </div>
+        <input id="create-btn" type="submit" value="Create">
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
